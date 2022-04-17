@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url("https://images.alphacoders.com/470/thumb-1920-470208.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+      position:absolute;
+      top: 30%;
+      left: 40%;
+      color:white;
+
+
+}
+
+.container h1{
+    font: size 40px;
+
+    margin-bottom: 43px;
+    padding:13px 0;
+}
+
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 140, 255); 
+      margin:12px 0px;
+}
+
+.box input{
+    background:none;
+    width: 75%;
+    border:none;
+    outline:none;
+    color:white;
+ 
+    padding:5px 10px;
+    font-size: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    width: 25%;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    margin:auto;
+    font-size: 20px;
+    padding:6px;
+    
+    
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+    padding:12px 0px;
+
+}
+
+.box input::placeholder{
+    color: white;
+}
+
+.btn:hover{
+    background:black;
+    color:white;
+}
+
+
+
+
+
+
+
